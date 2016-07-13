@@ -12,7 +12,7 @@
 		medium: '(max-width: 980px)',
 		small: '(max-width: 736px)'
 	});
-
+	
 	$(function() {
 
 		var	$window = $(window),
