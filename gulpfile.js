@@ -63,6 +63,7 @@ gulp.task('watch', function() {
     /*require('./server.js');
     liveReload.listen();
     gulp.watch(SCRIPTS_PATH, ['scripts']);*/
+    gulp.watch(CSS_PATH, ['styles']);
     gulp.watch(SCRIPTS_PATH, ['scripts']);
     gulp.watch('builds/public/assets/sass/**/*.scss', ['compass']);
     gulp.watch(HTML_PATH, ['html']);

@@ -1659,11 +1659,16 @@ ol.default li {
 .box.feature .inner {
   padding: 4em 2em 3em 2em;
 }
+.box.feature .inner span {
+  margin-top: 20px;
+  text-align: center;
+}
 .box.feature h2 {
   font-size: 1.35em;
 }
 .box.feature p {
   margin: 0;
+  line-height: 175%;
 }
 .box.feature .image {
   position: relative;
@@ -1766,16 +1771,20 @@ ol.default li {
   display: inline-block;
 }
 #logo h1 {
-  background: #ff4486;
+  /*background: #ff4486;
   color: #fff;
   border-radius: 6px;
   font-family: 'Oleo Script', serif;
   font-weight: 400;
   padding: 0.25em 0.2em 0.25em 0.2em;
   font-size: 3.25em;
-  letter-spacing: 0.05em;
+  letter-spacing: 0.05em;*/
+  padding: 0.25em 0.2em 0.25em 0.2em;
   display: inline-block;
   vertical-align: middle;
+}
+#logo h1 a img {
+  width: 30%;
 }
 #logo span {
   font-weight: 800;
@@ -1820,8 +1829,8 @@ ol.default li {
   background: #fff;
 }
 #nav ul li.current a {
-  background: #444;
-  color: #024656;
+  background: #024656;
+  color: #fff;
 }
 
 .dropotron {

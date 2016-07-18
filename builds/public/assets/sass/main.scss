@@ -440,6 +440,11 @@
 
 			.inner {
 				padding: 4em 2em 3em 2em;
+
+				span {
+					margin-top: 20px;
+					text-align: center;
+				}
 			}
 
 			h2 {
@@ -448,6 +453,7 @@
 
 			p {
 				margin: 0;
+				line-height: 175%;
 			}
 
 			.image {
@@ -574,16 +580,21 @@
 		display: inline-block;
 
 		h1 {
-			background: #ff4486;
+			/*background: #ff4486;
 			color: #fff;
 			border-radius: 6px;
 			font-family: 'Oleo Script', serif;
 			font-weight: 400;
 			padding: 0.25em 0.2em 0.25em 0.2em;
 			font-size: 3.25em;
-			letter-spacing: 0.05em;
+			letter-spacing: 0.05em;*/
+			padding: 0.25em 0.2em 0.25em 0.2em;
 			display: inline-block;
 			vertical-align: middle;
+
+			a img {
+				width: 30%;
+			}
 		}
 
 		span {
@@ -638,8 +649,8 @@
 
 				&.current {
 					a {
-						background: #444;
-						color: #024656;
+						background: #024656;
+						color: #fff;
 					}
 				}
 			}
