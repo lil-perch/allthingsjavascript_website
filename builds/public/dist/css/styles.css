@@ -1466,6 +1466,11 @@ article:last-child {
   margin-bottom: 0;
 }
 
+section em {
+  color: #C81900;
+  font-weight: bold;
+}
+
 header {
   margin: 0 0 2em 0;
 }
@@ -1611,7 +1616,7 @@ button,
   -webkit-appearance: none;
   position: relative;
   display: inline-block;
-  background: #024656;
+  background: #C81900;
   color: #fff;
   text-decoration: none;
   border-radius: 6px;
@@ -1636,14 +1641,14 @@ input[type="submit"]:hover,
 input[type="reset"]:hover,
 button:hover,
 .button:hover {
-  background: #10a0d5;
+  background: #e2331a;
 }
 input[type="button"]:active,
 input[type="submit"]:active,
 input[type="reset"]:active,
 button:active,
 .button:active {
-  background: #20b0e5;
+  background: #e2331a;
 }
 input[type="button"].alt,
 input[type="submit"].alt,
@@ -1669,6 +1674,30 @@ button.alt:active,
 .button.alt:active {
   background: #e4e4e4;
   background: rgba(0, 0, 0, 0.15);
+}
+input[type="button"].blue,
+input[type="submit"].blue,
+input[type="reset"].blue,
+button.blue,
+.button.blue {
+  background: #144557;
+  color: #fff;
+}
+input[type="button"].blue:hover,
+input[type="submit"].blue:hover,
+input[type="reset"].blue:hover,
+button.blue:hover,
+.button.blue:hover {
+  background: #2E5F71;
+  background: rgba(46, 95, 113, 0.95);
+}
+input[type="button"].blue:active,
+input[type="submit"].blue:active,
+input[type="reset"].blue:active,
+button.blue:active,
+.button.blue:active {
+  background: #2E5F71;
+  background: rgba(46, 95, 113, 0.95);
 }
 input[type="button"].big,
 input[type="submit"].big,
@@ -1729,7 +1758,7 @@ ol.default li {
 .box.feature .inner {
   padding: 4em 2em 3em 2em;
 }
-.box.feature .inner span {
+.box.feature .inner .gotobutton {
   margin-top: 20px;
   text-align: center;
 }
@@ -1814,7 +1843,7 @@ ol.default li {
 
 /* Wrappers */
 #header-wrapper {
-  padding: 4.5em 0 1em 0;
+  padding: 1.5em 0 1em 0;
 }
 
 #features-wrapper {
