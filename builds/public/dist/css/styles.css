@@ -1377,6 +1377,10 @@ body.is-loading * {
   animation: none !important;
 }
 
+.bluetext {
+  color: #0090c5;
+}
+
 input, select, textarea {
   font-family: 'Open Sans', sans-serif;
   font-size: 13pt;

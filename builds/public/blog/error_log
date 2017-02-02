@@ -1,0 +1,1 @@
+[11-Oct-2016 16:17:14 UTC] PHP Warning:  array_unshift() expects parameter 1 to be array, null given in /home1/allthin8/public_html/blog/wp-includes/class-wp-xmlrpc-server.php on line 596
