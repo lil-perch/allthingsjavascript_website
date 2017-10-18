@@ -6,8 +6,11 @@
 -->
 <html>
 	<head>
-		<title>All Things JavaScript</title>
+		<title>JavaScript Tutorials</title>
 		<meta charset="utf-8" />
+		<meta name="description" content="Over 40 JavaScript tutorials organized into different categories.">
+		<meta name="keywords" content="JavaScript,Tutorials">
+  		<meta name="author" content="All Things JavaScript, LLC">
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<!--[if lte IE 8]><script src="assets/js/ie/html5shiv.js"></script><![endif]-->
 		<link rel="stylesheet" href="assets/css/main.css" />
@@ -43,10 +46,10 @@
 							<nav id="nav">
 								<ul>
 									<li><a href="index.html">Home</a></li>
-									<li>
-										<a href="http://courses.allthingsjavascript.com/p/learn-modern-javascript-getting-started">Current Courses</a>
+									<li><a href="courses.html">Current Courses</a>
 										<ul>
-											<li><a href="http://courses.allthingsjavascript.com/p/learn-modern-javascript-getting-started">Learn Modern JavaScript: Getting Started</a></li>
+											<li><a href="getting-started.html">Learn Modern JavaScript: Getting Started</a></li>
+											<li><a href="advanced-topics.html">Learn Modern JavaScript: Advanced Topics</a></li>
 											<!--<li><a href="#">Magna phasellus</a></li>
 											<li>
 												<a href="#">Phasellus consequat</a>
@@ -63,7 +66,7 @@
 									<li><a href="planned.html">Planned Courses</a></li>
 									<li><a href="http://www.allthingsjavascript.com/blog">Blog</a></li>
 									<li class="current"><a href="youtube.html">Tutorials</a></li>
-									<li><a href="adapt.html">Adapt</a></li>
+									<!-- <li><a href="adapt.html">Adapt</a></li> -->
 									<li><a id="adaptLinks" href="#">Notify Me</a></li>
 								</ul>
 							</nav>
@@ -90,9 +93,31 @@
 												<li><a href="#latest">Latest JavaScript Features</a></li>
 												<li><a href="#questions">JavaScript Questions</a></li>
 												<li><a href="#general">General JavaScript Topics</a></li>
+												<li><a href="#problems">JavaScript Problems</a></li>
+												<li><a href="#tips">JavaScript Tips</a></li>
 											</ul>
 
 											<h3><a name="gettingStarted">Getting Started Tutorials</a></h3>
+											<p><em class="redtext"><a href="https://youtu.be/knbUg0Q3qLU" target="_blank">JavaScript Tip: Tracking Elapsed Time</a></em><br>Tracking the amount of time between two events in JavaScript is not too difficult once you know a little trick with the date object. In this tutorial we will show an example of tracking the amount of time from when a page loads to the clicking of a button.</p>
+
+											<p><em class="redtext"><a href="https://youtu.be/CsoknB_0TW8" target="_blank">The Ins and Outs of localStorage and sessionStorage</a></em><br>In this JavaScript tip we delve into localStorage and sessionStorage. We will discuss what they are, when to use them, and the different techniques to store data.</p>
+
+											<p><em class="redtext"><a href="https://youtu.be/PRmTHiwTvts" target="_blank">Inserting Special Characters in JavaScript Strings</a></em><br>The backslash (\) allows you to insert special characters in JavaScript strings. In this tutorial we take a look at several different ways to insert special characters. We also look at how escape sequences are used to obfuscate code.</p>
+
+											<p><em class="redtext"><a href="https://youtu.be/MLNmrzGQYdU" target="_blank">JavaScript Problem: Searching an Array for a Value</a></em><br>Searching an array is a common task. In the past we have relied on indexOf and lastIndexOf. As of ES6 there are two new array methods: findIndex and find. This tutorial covers indexOf, lastIndexOf, findIndex and find.</p>
+
+											<p><em class="redtext"><a href="https://youtu.be/HvBg2I2pfhQ" target="_blank">JavaScript Truthy and Falsy: When to Use it and When Not</a></em><br>JavaScript converts values to Boolean when needed such as when a value is used in a conditional. Truthy and Falsy is the concept that determines what those values evaluate to. In this tutorial we will explore truthy and falsy.</p>
+
+											<p><em class="redtext"><a href="https://youtu.be/XFg2-CkqiJo" target="_blank">JavaScript Question: How Does the switch Statement Work?</a></em><br>The switch statement sometimes gets ignored because of its complex syntax. In this tutorial we talk about when to use JavaScript switch and explain how it works.</p>
+
+											<p><em class="redtext"><a href="https://youtu.be/MVmamH6tuNg" target="_blank">JavaScript Question: What is Inheritance? </a></em><br>Inheritance is a term that you hear often. In this video we explain inheritance from a JavaScript perpective and compare it with class based inheritance.</p>
+
+											<p><em class="redtext"><a href="https://youtu.be/abP2q8eEXWg" target="_blank">The Basics of JavaScript Objects</a></em><br>Objects are central to the JavaScript world. In this tutorial we cover the basics of objects, different ways to create an object and assign or access properties on an object.</p>
+
+											<p><em class="redtext"><a href="https://youtu.be/-Oqmn0BOeSc" target="_blank">Debugging JavaScript: Tips on Console Statements</a></em><br>Console statements can be very helpful when debugging javascript. In this tutorial we take a look at some of the lesser known console statements.</p>
+
+											<p><em class="redtext"><a href="https://youtu.be/Mq2oUEQDHgk" target="_blank">JavaScript Question: How Do I Create a Multidimensional Array? </a></em><br>Though true multidimensional arrays are not supported in JavaScript, you can accomplish a similar thing by creating an array of arrays. In this tutorial we look at how to set that up and then access the values.</p>
+
 											<p><em class="redtext"><a href="https://youtu.be/3sGFoypr8kA" target="_blank">Enumerating JavaScript Objects: Understanding the for in Loop</a></em><br>In this tutorial we take a look at the features of the for in loop and how to use it to iterate over the properties of a JavaScript Object.</p>
 
 											<p><em class="redtext"><a href="https://youtu.be/f-yLYjvPiLE" target="_blank">Selecting DOM Elements with Pure JavaScript: querySelector and querySelectorAll</a></em><br>querySelector and querySelectorAll are two JavaScript methods that allow the selecting of DOM elements using CSS selectors; similar to what you do in jQuery. In this video we will cover both methods and compare than to more traditional methods: getElementByID, getElementsByClassName and getElementsByTagName.</p>
@@ -122,6 +147,20 @@
 
 
 											<h3><a name="advanced">More Advanced Tutorials</a></h3>
+											<p><em class="redtext"><a href="https://youtu.be/JixTYeCLf4Q" target="_blank">JavaScript Tip: Working with querySelectorAll Results</a></em><br>Converting the results of querySelectorAll to an array allows you to use the array methods to work with those DOM elements. We show you how to do the conversion and discuss why it works. We then work with the results use forEach.</p>
+
+											<p><em class="redtext"><a href="https://youtu.be/O9lMynNdka4" target="_blank">Higher Order Functions: A JavaScript Strong Point</a></em><br>How does the concept of higher order functions relate to first class functions? What is a higher order function? In this tutorial we answer these questions and show an example of a higher order function using the sort method to alphabetically sort the elements in an array.</p>
+
+											<p><em class="redtext"><a href="https://youtu.be/RmwsB-gxavg" target="_blank">JavaScript Question: What is Memoization and How Should I Use it?</a></em><br>Memoization is a technique for improving a function, by storing results and returning those results when they are called for again. In this tutorial we will look at 2 patterns for memoization and we will look at an example of how memoization can help.</p>
+
+											<p><em class="redtext"><a href="https://youtu.be/1ieC6JZmF5w" target="_blank">JavaScript Question: Why are JavaScript Functions First-Class?</a></em><br>You have undoubtedly heard JavaScript functions referred to as first-class citizens. But what does that really mean? In this tutorial we explore that idea.</p>
+
+											<p><em class="redtext"><a href="https://youtu.be/ngS5aZVmqok" target="_blank">JavaScript Problem: Computing a Fibonacci Sequence</a></em><br>In this JavaScript problem you will see examples of using the while loop and recursion to determine a fibonacci sequence.</p>
+
+											<p><em class="redtext"><a href="https://youtu.be/xohGSsm8ya4" target="_blank">JavaScript Question: Should I Use try catch or an if Conditional?</a></em><br>Try catch is great for exception handling. But it is possible to use an if conditional in certain situations where try catch is used. We look at that in this tutorial and talk about reasons to use or not use try catch.</p>
+
+											<p><em class="redtext"><a href="https://youtu.be/diE6oYo6sog" target="_blank">Dealing with JavaScript Exceptions: Using the try catch Statement</a></em><br>The try catch statement allows exception handling in JavaScript. In this tutorial we explain the syntax and look at a couple of examples.</p>
+
 											<p><em class="redtext"><a href="https://youtu.be/Fkw_OlcLcwE" target="_blank">XML and Recursion: An Example in JavaScript</a></em><br>In separate videos we have talked about working with XML using JavaScript and Recursion. In this tutorial we use a couple of examples to put both together.</p>
 
 											<p><em class="redtext"><a href="https://youtu.be/Fkw_OlcLcwE" target="_blank">JavaScript Question: How do I Work with XML Data?</a></em><br>In this JavaScript tutorial we look at how to convert XML data to an XMLDom and then commands that can be used to access and manipulate that data.</p>
@@ -158,6 +197,14 @@
 
 
 											<h3><a name="latest">Latest JavaScript Features</a></h3>
+											<p><em class="redtext"><a href="https://youtu.be/avPIXAftj24" target="_blank">Converting Array-like Objects to Arrays</a></em><br>Whenever you need to convert an array-like object to an actual array, use Array.from. This new static function was added with ECMAScript 2015 and is a much simpler way to make the conversion. We look at how to convert array-like objects as well as another tip using Array.from.</p>
+
+											<p><em class="redtext"><a href="https://youtu.be/MLNmrzGQYdU" target="_blank">JavaScript Problem: Searching an Array for a Value</a></em><br>Searching an array is a common task. In the past we have relied on indexOf and lastIndexOf. As of ES6 there are two new array methods: findIndex and find. This tutorial covers indexOf, lastIndexOf, findIndex and find.</p>
+
+											<p><em class="redtext"><a href="https://youtu.be/4us5H3YgAKY" target="_blank">JavaScript Question: Should I Stop Using var and Replace it with let?</a></em><br>let and const are now widely supported by browsers. In this tutorial we address the question of whether there is a need to use var at all. We also address the question of using const for most declarations.</p>
+
+											<p><em class="redtext"><a href="https://youtu.be/sSFNzvqw2UI" target="_blank">ECMAScript 2016: Using the Main Features</a></em><br>ECMAScript 2016 defined two main features. In this tutorial we look at those two features: includes method for arrays and the exponentiation operator.</p>
+
 											<p><em class="redtext"><a href="https://youtu.be/n0R6xuizTZs" target="_blank">ES6 String Inspection Functions</a></em><br>ES6 provides three additional functions that make it much easier to test strings for the presence of other strings. Traditionally we have had to use indexOf and lastIndexOf in non-intuitive ways. We look at the traditional methods and the new way provided by includes, endsWith and startsWith functions.</p>
 
 											<p><em class="redtext"><a href="https://youtu.be/E6_NPLkNcCM" target="_blank">Using ES6 Default Values for Function Parameters</a></em><br>The ES6 standard provided a way to include default values for parameters when you set up a function. This video addresses the traditional way have handling this issue in JavaScript and then shows how it is done with ES6.</p>
@@ -171,6 +218,20 @@
 
 
 											<h3><a name="questions">JavaScript Questions</a></h3>
+											<p><em class="redtext"><a href="https://youtu.be/RmwsB-gxavg" target="_blank">JavaScript Question: What is Memoization and How Should I Use it?</a></em><br>Memoization is a technique for improving a function, by storing results and returning those results when they are called for again. In this tutorial we will look at 2 patterns for memoization and we will look at an example of how memoization can help.</p>
+
+											<p><em class="redtext"><a href="https://youtu.be/4us5H3YgAKY" target="_blank">JavaScript Question: Should I Stop Using var and Replace it with let?</a></em><br>let and const are now widely supported by browsers. In this tutorial we address the question of whether there is a need to use var at all. We also address the question of using const for most declarations.</p>
+
+											<p><em class="redtext"><a href="https://youtu.be/1ieC6JZmF5w" target="_blank">JavaScript Question: Why are JavaScript Functions First-Class?</a></em><br>You have undoubtedly heard JavaScript functions referred to as first-class citizens. But what does that really mean? In this tutorial we explore that idea.</p>
+
+											<p><em class="redtext"><a href="https://youtu.be/XFg2-CkqiJo" target="_blank">JavaScript Question: How Does the switch Statement Work?</a></em><br>The switch statement sometimes gets ignored because of its complex syntax. In this tutorial we talk about when to use JavaScript switch and explain how it works.</p>
+
+											<p><em class="redtext"><a href="https://youtu.be/xohGSsm8ya4" target="_blank">JavaScript Question: Should I Use try catch or an if Conditional?</a></em><br>Try catch is great for exception handling. But it is possible to use an if conditional in certain situations where try catch is used. We look at that in this tutorial and talk about reasons to use or not use try catch.</p>
+
+											<p><em class="redtext"><a href="https://youtu.be/MVmamH6tuNg" target="_blank">JavaScript Question: What is Inheritance? </a></em><br>Inheritance is a term that you hear often. In this video we explain inheritance from a JavaScript perpective and compare it with class based inheritance.</p>
+
+											<p><em class="redtext"><a href="https://youtu.be/Mq2oUEQDHgk" target="_blank">JavaScript Question: How Do I Create a Multidimensional Array? </a></em><br>Though true multidimensional arrays are not supported in JavaScript, you can accomplish a similar thing by creating an array of arrays. In this tutorial we look at how to set that up and then access the values.</p>
+
 											<p><em class="redtext"><a href="https://youtu.be/Fkw_OlcLcwE" target="_blank">JavaScript Question: How do I Work with XML Data?</a></em><br>In this JavaScript tutorial we look at how to convert XML data to an XMLDom and then commands that can be used to access and manipulate that data.</p>
 
 											<p><em class="redtext"><a href="https://youtu.be/XNjLhxg4u6k" target="_blank">JavaScript Question: How do I Set the Prototype of an Object?</a></em><br>In this video we will show you three ways to establish the prototype of an JavaScript object.</p>
@@ -188,6 +249,12 @@
 
 
 											<h3><a name="general">General JavaScript Topics</a></h3>
+											<p><em class="redtext"><a href="https://youtu.be/g4U5WRzHitM" target="_blank">JavaScript Tip: Getting Started with indexedDB</a></em><br>IndexedDB is a specification that allows you to store data in a browser. It is more structured than localStorage and uses and asynchronous API. In this tutorial we will cover what is needed to get started with indexedDB.</p>
+
+											<p><em class="redtext"><a href="https://youtu.be/1ieC6JZmF5w" target="_blank">JavaScript Question: Why are JavaScript Functions First-Class?</a></em><br>You have undoubtedly heard JavaScript functions referred to as first-class citizens. But what does that really mean? In this tutorial we explore that idea.</p>
+
+											<p><em class="redtext"><a href="https://youtu.be/-Oqmn0BOeSc" target="_blank">Debugging JavaScript: Tips on Console Statements</a></em><br>Console statements can be very helpful when debugging javascript. In this tutorial we take a look at some of the lesser known console statements.</p>
+
 											<p><em class="redtext"><a href="https://youtu.be/Pd-DKlpMOtw" target="_blank">Choosing a JavaScript Library or Framework: Resources to Help</a></em><br>With so many JavaScript libraries and frameworks available, it can be a bit of a daunting task to choose one for the project you are working on. In this movie we cover three resources to help you make the correct choice.</p>
 
 											<p><em class="redtext"><a href="https://youtu.be/zjgdH1hKwZk" target="_blank">Learning JavaScript: Six Concepts You Should Understand Thoroughly</a></em><br>A lot of JavaScript developers are self taught. As a part of that process, sometimes important concepts are missed. In this video I address what I feel are six JavaScript concepts you should understand well. Everyone seems to learn the elements of the language, but sometimes these concepts are missed.</p>
@@ -197,6 +264,28 @@
 											<p><em class="redtext"><a href="https://youtu.be/Zx6zhUlF5KM" target="_blank">Writing JavaScript on an iPad with JavaScript Anywhere</a></em><br>At times you may be out and about and want to try a JavaScript idea. With JavaScript Anywhere you can pull out your iphone or ipad and begin writing JavaScript, HTML and CSS and then run it to see what happens. In this video we do a short JavaScript test and then look at the features available with JavaScript Anywhere.</p>
 
 											<p><em class="redtext"><a href="https://youtu.be/gjLn95skIKE" target="_blank">Function Declarations VS Function Expressions in JavaScript</a></em><br>JavaScript provides 2 methods for defining a function: the function declaration and the function expression. In this video we examine the difference, which includes hoisting and the emphasis on first class functions. We also take a look at when you might want to use a named function expression as opposed to an anonymous function expression.</p>
+
+
+
+											<h3><a name="problems">JavaScript Problems</a></h3>
+											<p><em class="redtext"><a href="https://youtu.be/MLNmrzGQYdU" target="_blank">JavaScript Problem: Searching an Array for a Value</a></em><br>Searching an array is a common task. In the past we have relied on indexOf and lastIndexOf. As of ES6 there are two new array methods: findIndex and find. This tutorial covers indexOf, lastIndexOf, findIndex and find.</p>
+
+											<p><em class="redtext"><a href="https://youtu.be/ngS5aZVmqok" target="_blank">JavaScript Problem: Computing a Fibonacci Sequence</a></em><br>In this JavaScript problem you will see examples of using the while loop and recursion to determine a fibonacci sequence.</p>
+
+											<p><em class="redtext"><a href="https://youtu.be/1SgNqNqtVqA" target="_blank">JavaScript Problem: Eloquent JavaScript Exercise - Range and Sum Functions</a></em><br>In this JavaScript Problem we address an exercise from chapter 4 of the Eloquent JavaScript book. This exercise tasks the creating of a range function and a sum function and chaining them together to test the results.</p>
+
+
+
+											<h3><a name="tips">JavaScript Tips</a></h3>
+											<p><em class="redtext"><a href="https://youtu.be/ZwrMqNdhbr4" target="_blank">JavaScript Tip: Creating a Function that Remembers Data</a></em><br>If you find you are passing the some of the same information to a function and calling it multiple times, you may want to bed that data with the function using the technique discussed in this tutorial.</p>
+
+											<p><em class="redtext"><a href="https://youtu.be/knbUg0Q3qLU" target="_blank">JavaScript Tip: Tracking Elapsed Time</a></em><br>Tracking the amount of time between two events in JavaScript is not too difficult once you know a little trick with the date object. In this tutorial we will show an example of tracking the amount of time from when a page loads to the clicking of a button.</p>
+
+											<p><em class="redtext"><a href="https://youtu.be/g4U5WRzHitM" target="_blank">JavaScript Tip: Getting Started with indexedDB</a></em><br>IndexedDB is a specification that allows you to store data in a browser. It is more structured than localStorage and uses and asynchronous API. In this tutorial we will cover what is needed to get started with indexedDB.</p>
+
+											<p><em class="redtext"><a href="https://youtu.be/JixTYeCLf4Q" target="_blank">JavaScript Tip: Working with querySelectorAll Results</a></em><br>Converting the results of querySelectorAll to an array allows you to use the array methods to work with those DOM elements. We show you how to do the conversion and discuss why it works. We then work with the results use forEach.</p>
+
+											<p><em class="redtext"><a href="https://youtu.be/CsoknB_0TW8" target="_blank">The Ins and Outs of localStorage and sessionStorage</a></em><br>In this JavaScript tip we delve into localStorage and sessionStorage. We will discuss what they are, when to use them, and the different techniques to store data.</p>
 
 										</article>
 
@@ -210,16 +299,16 @@
 											<h3>All Things JavaScript's YouTube Channel</h3>
 											<p>Subscribe to our channel to receive notifications as soon as a tutorial is published. We publish new videos each week.</p>
 											<footer>
-												<a href="https://www.youtube.com/channel/UCRQhZGXC0WK85YRXl7nGX0w" class="button icon fa-info-circle" id="adaptLinks">Subscribe</a>
+												<a href="https://www.youtube.com/channel/UCRQhZGXC0WK85YRXl7nGX0w" class="button icon fa-info-circle" id="youtube" target="_blank">Subscribe</a>
 											</footer>
 										</section>
 
 										<section>
 											<h3>All Things JavaScript Courses</h3>
-											<a href="http://courses.allthingsjavascript.com" class="image featured"><img src="images/series.jpg" alt="JavaScript code displayed representing the skills you will learn by taking the Learn Modern JavaScript series." /></a>
+											<a href="courses.html"><img src="images/series.jpg" alt="JavaScript code displayed representing the skills you will learn by taking the Learn Modern JavaScript series." /></a>
 											<ul class="style2">
-												<li> <a href="http://courses.allthingsjavascript.com/p/learn-modern-javascript-getting-started/?product_id=169918&coupon_code=TAKEHALF">Learn Modern JavaScript: Getting Started</a> </li>
-												<!-- <li> <a href="https://github.com/adaptlearning/adapt_framework">Adapt on GitHub</a> </li> -->
+												<li> <a href="getting-started.html">Learn Modern JavaScript: Getting Started</a> </li>
+												<li> <a href="advanced-topics.html">Learn Modern JavaScript: Advanced Topics</a> </li>
 											</ul>
 										</section>
 
@@ -279,11 +368,12 @@ JavaScript: The Definitive Guide</a></li>
 									<section class="widget links">
 										<h3>Latest YouTube Videos</h3>
 										<ul class="style2">
-											<li><a href="https://www.youtube.com/playlist?list=PLTo9PCskHpbEp8vEqDK9NzcfbkcfTIYCT" target="_blank">Playlist of ES6 Features</a></li>
-											<li><a href="https://youtu.be/Fkw_OlcLcwE" target="_blank">XML and Recursion: An Example in JavaScript</a></li>
-											<li><a href="https://youtu.be/Fkw_OlcLcwE" target="_blank">JavaScript Question: How do I Work with XML Data?</a></li>
-											<li><a href="https://youtu.be/6FDTpI9fz9U" target="_blank">Private Data on Constructors: A Closure Example</a></li>
-											<li><a href="https://youtu.be/3sGFoypr8kA" target="_blank">Enumerating JavaScript Objects: Understanding the for in Loop</a></li>
+											<li><a href="https://youtu.be/knbUg0Q3qLU" target="_blank">JavaScript Tip: 
+											Tracking Elapsed Time</a></li>
+											<li><a href="https://youtu.be/CsoknB_0TW8" target="_blank">The Ins and Outs of localStorage and sessionStorage</a></li>
+											<li><a href="https://youtu.be/avPIXAftj24" target="_blank">Converting Array-like Objects to Arrays</a></li>
+											<li><a href="https://youtu.be/ZwrMqNdhbr4">JavaScript Tip: Creating a Function that Remembers Data</a></li>
+											<li><a href="https://youtu.be/g4U5WRzHitM" target="_blank">JavaScript Tip: Getting Started with indexedDB</a></li>
 										</ul>
 									</section>
 
