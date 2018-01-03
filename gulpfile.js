@@ -42,9 +42,13 @@ gulp.task('scripts', function() {
 });
 // Images
 
-gulp.task('default', ['scripts', 'compass', 'connect', 'html', 'watch']);
+gulp.task('default', ['scripts', 'connect', 'html', 'watch']);
 
-gulp.task('all', ['scripts', 'compass', 'connect', 'html', 'watch']);
+gulp.task('all', ['scripts', 'connect', 'html', 'watch']);
+
+/*gulp.task('default', ['scripts', 'compass', 'connect', 'html', 'watch']);
+
+gulp.task('all', ['scripts', 'compass', 'connect', 'html', 'watch']);*/
 
 gulp.task('connect', function() {
     connect.server({
